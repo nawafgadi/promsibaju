@@ -1,0 +1,117 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #817d7d;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url('backgraound\ folmulir.jpg'); /* Ganti dengan nama file latar belakang yang sesuai */
+    background-size: cover;
+    background-position: center;
+    color: #86f54f; /* Warna teks putih agar kontras dengan latar belakang */
+    padding: 350px 0;
+    text-align: center;
+    position: relative; /* Untuk memberi ruang untuk overlay jika diperlukan */
+}
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #5ce794;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.produk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produk .item {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.produk .item img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.produk .item h3 {
+    margin-top: 10px;
+}
+
+.produk .item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.produk .item .harga {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.galeri {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.galeri img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
